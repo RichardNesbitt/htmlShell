@@ -1,0 +1,92 @@
+/* Any declarations put in this rule block will affect everything. When your selector is '*' it means 'everything' */
+* {
+
+}
+
+header {
+
+}
+
+#logo {
+    display: inline-block;
+}
+
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    display: inline-block; /* show nav links in a row (inline-block) instead of vertically stacked (block) */
+}
+
+nav ul li a.current { /* this makes rules for the CURRENT nav element */
+
+}
+
+h1 {
+    
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+footer {
+
+}
+
+.copyright {
+
+}
+
+/* This one's a little different. Rules for TABLET view go here. Anything UNDER 1080px wide will follow these rules */
+@media all and (max-width: 1080px){
+    /* We embed our individual rule blocks inside of this one, tabbed in once */
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    p {
+
+    }
+
+    a {
+
+    }
+}
+
+/* This is like the previous block, but it's for mobile. The width cutoff here is 768px */
+@media all and (max-width: 768px){
+    /* We embed our individual rule blocks inside of this one, tabbed in once */
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    p {
+
+    }
+
+    a {
+
+    }
+}
